@@ -1,18 +1,18 @@
-$sharename = 5288IT_1
+$sharename = "5288IT_1"
 
 $folderpath = "C:\"
 
-$username = Administrators
+$username = "Administrators"
 
 $permission = "Read"
 
 New-SmbShare -Name $sharename -Path $folderpath -FullAccess $username
 
-$sharename = 5288IT_2
+$sharename = "5288IT_2"
 
 $folderpath = "O:\"
 
-$username = Administrators
+$username = "Administrators"
 
 $permission = "Read"
 
