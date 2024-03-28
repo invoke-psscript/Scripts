@@ -1,0 +1,1 @@
+foreach ($i in @("Administrators", "Remote Desktop Users", "Network Configuration Operators")) {$Info = Get-LocalGroupMember $i ; Write-Host ("$i`n`n $Info`n" )}
