@@ -22,4 +22,4 @@ $mail = "mail." + $compsys.Domain
 
 
 Send-MailMessage -SmtpServer $mail -To "drush@evertz.com" -From "Reports@5288.IT" -Body $compsys.DnsHostname -Subject "Installed Programs" -attachments $attachments
-Remove-Item .\Installed_Programs\Output.txt -Force
+Remove-Item .\Output.txt -Force
