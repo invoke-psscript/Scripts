@@ -1,0 +1,1 @@
+Get-WindowsDriver -Online -All | Where ProviderName -eq Intel | Where ClassName -eq net
