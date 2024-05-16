@@ -1,0 +1,1 @@
+[Environment]::SetEnvironmentVariable('MGLS_LICENSE_FILE', '7418@flexdrift', 'Machine')
