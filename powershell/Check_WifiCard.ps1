@@ -1,6 +1,6 @@
-$netshinfo = netsh wlan sh d
-
 $hostname = hostname
+
+$netshinfo = netsh wlan sh d
 
 $netshinfo > C:\output.txt
 
