@@ -16,7 +16,7 @@ $netsh_all >> C:\output.txt
 
 $attachments += "C:\output.txt"
 
-netsh wlan sh wlanreport duration="1"
+netsh wlan sh wlanreport duration="2"
 
 $attachments += "C:\ProgramData\Microsoft\Windows\WlanReport\wlan-report-latest.html"
 
