@@ -1,1 +1,1 @@
-Add-LocalGroupMember -Group "Administrators" -Member "EVERTZ_MICROSYS\sethb"
+Add-LocalGroupMember -Group "Administrators" -Member "EVERTZ_MICROSYS\drush"
