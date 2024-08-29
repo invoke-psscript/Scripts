@@ -1,0 +1,1 @@
+Add-LocalGroupMember -Group "Remote Desktop Users" -Member "EVERTZ_MICROSYS\cbeytas"
