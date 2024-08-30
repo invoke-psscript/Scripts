@@ -1,4 +1,4 @@
-Write-Host "Note: Username must be entered in the form DOMAIN\username in the Command Line section of the script"
+Write-Host "Note: Username must be entered in the form DOMAIN\username in the Command Line section of the script`n----------`n`n"
 
 If ($args[0] -ne $null){
 
