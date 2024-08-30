@@ -8,4 +8,4 @@ If ($args[0] -ne $null){
 
 Else {Write-Host "No args entered"}
 
-Add-LocalGroupMember -Group "Remote Desktop Users" -Member "EVERTZ_MICROSYS\$username"
+Add-LocalGroupMember -Group "Remote Desktop Users" -Member "$username"
