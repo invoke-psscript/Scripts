@@ -1,3 +1,4 @@
+Write-Host $args[0]
 
 If ($args[0] -ne $null){
 
