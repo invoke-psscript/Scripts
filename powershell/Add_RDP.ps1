@@ -6,6 +6,6 @@ If ($args[0] -ne $null){
 
 }
 
-Else {Write-Host "No args entered"}
+Else {Write-Host "No username entered"}
 
 Add-LocalGroupMember -Group "Remote Desktop Users" -Member "$username"
