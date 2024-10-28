@@ -15,6 +15,10 @@ Write-Host (Get-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\TimeZ
 
 $ntp = $args[0]
 
+""
+"The ntp server entered is $ntp"
+""
+
 If ($ntp.Length -eq 12){
 
     $w32time = Get-Service -Name W32Time
